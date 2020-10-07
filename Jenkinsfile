@@ -1,5 +1,5 @@
 pipeline {
-    agent node1
+    agent ubuntu
 
     stages {
         stage('Hello') {
